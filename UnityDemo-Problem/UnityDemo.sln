@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{115B2B0C-81AF-4BA5-A37F-C18728AB85B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web", "Web", "{1518E320-AB2B-4712-A5DC-8AE4831F72C3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Security", "Security", "{CB4171B3-A932-420B-AD44-75CEC732B49E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{28350934-C448-41F7-9F71-81BA65C757BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDemo.Common", "UnityDemo.Common\UnityDemo.Common.csproj", "{8C863CCD-8C42-4491-9598-64E72E88DD18}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDemo.Web", "UnityDemo.Web\UnityDemo.Web.csproj", "{D3F036B2-A90E-4E94-97AC-33D380FA720E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDemo.Security", "UnityDemo.Security\UnityDemo.Security.csproj", "{1D3AAAAA-846A-4B40-9839-C968B8555D8D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityDemo.Security.Data", "UnityDemo.Security.Data\UnityDemo.Security.Data.csproj", "{4DF04E8A-BA3B-473A-A3AE-8106CCDD4B17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6A44C1C3-C236-4859-8A92-58395B3F0411}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C863CCD-8C42-4491-9598-64E72E88DD18}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C863CCD-8C42-4491-9598-64E72E88DD18}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C863CCD-8C42-4491-9598-64E72E88DD18}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C863CCD-8C42-4491-9598-64E72E88DD18}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F036B2-A90E-4E94-97AC-33D380FA720E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F036B2-A90E-4E94-97AC-33D380FA720E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F036B2-A90E-4E94-97AC-33D380FA720E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F036B2-A90E-4E94-97AC-33D380FA720E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D3AAAAA-846A-4B40-9839-C968B8555D8D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D3AAAAA-846A-4B40-9839-C968B8555D8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D3AAAAA-846A-4B40-9839-C968B8555D8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D3AAAAA-846A-4B40-9839-C968B8555D8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4DF04E8A-BA3B-473A-A3AE-8106CCDD4B17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DF04E8A-BA3B-473A-A3AE-8106CCDD4B17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DF04E8A-BA3B-473A-A3AE-8106CCDD4B17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DF04E8A-BA3B-473A-A3AE-8106CCDD4B17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CB4171B3-A932-420B-AD44-75CEC732B49E} = {115B2B0C-81AF-4BA5-A37F-C18728AB85B7}
+		{D3F036B2-A90E-4E94-97AC-33D380FA720E} = {1518E320-AB2B-4712-A5DC-8AE4831F72C3}
+		{1D3AAAAA-846A-4B40-9839-C968B8555D8D} = {CB4171B3-A932-420B-AD44-75CEC732B49E}
+		{4DF04E8A-BA3B-473A-A3AE-8106CCDD4B17} = {CB4171B3-A932-420B-AD44-75CEC732B49E}
+		{8C863CCD-8C42-4491-9598-64E72E88DD18} = {28350934-C448-41F7-9F71-81BA65C757BD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
